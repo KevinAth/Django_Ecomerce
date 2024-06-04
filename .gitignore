@@ -4,7 +4,6 @@
 *.pyc
 __pycache__
 db.sqlite3
-media
 
 # Backup files # 
 *.bak 
@@ -105,7 +104,7 @@ venv/
 ENV/ 
 env.bak/ 
 venv.bak/ 
-
+media
 # mkdocs documentation 
 /site 
 

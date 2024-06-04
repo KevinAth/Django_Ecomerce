@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'appweb',
+    'appweb', # Agregarmos nuesta app a settings
 ]
 
 MIDDLEWARE = [
@@ -84,7 +84,7 @@ DATABASES = {
         "HOST": "127.0.0.1",
         "PORT": "3306",
     }
-}
+} # configuramos la base de datos mysql
 
 
 # Password validation
@@ -128,5 +128,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
+# definimos donde se va a guardar y consultar los archivos media(imagenes de los productos)
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
