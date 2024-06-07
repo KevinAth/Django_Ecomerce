@@ -20,6 +20,7 @@ from django.urls import path,include
 from django.conf import settings # importamos settings 
 from django.conf.urls.static import static # importamos la funcion para servir los archivos media
 
+# establece las urls del proyecto
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",include("appweb.urls"))

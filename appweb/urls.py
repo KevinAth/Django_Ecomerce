@@ -1,5 +1,7 @@
 from django.urls import path
 from . import views
+
+# se establecen todos los urls para las vistas de la aplicacion appweb
 urlpatterns = [
     path("",views.index,name="index"),
     path('ProductosCategoria/<int:categoria_id>',views.productosCategorias,name='prodxcat'),
